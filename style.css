@@ -1,0 +1,92 @@
+#mainHeader
+{
+	width: 98%;
+	margin: auto;
+	margin-top: 0;
+	padding: 10px;
+	font-size: 2em;
+	border-radius: 30px;
+	display: inline-block;
+	background-color: #3c3c3d;
+}
+
+header h1
+{
+	float: right;
+	text-align: left;
+	font-family: 'Jim Nightshade', cursive;
+	color: white;
+	padding: 0 10px;
+}
+header img
+{
+
+	margin-top: 15px;
+	float: left;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}
+
+.shadowStyle
+{
+	-webkit-box-shadow: 15px 15px 20px -6px black;
+	-moz-box-shadow: 15px 15px 20px -6px black;
+	box-shadow: 15px 15px 20px -6px black;
+	background-color: gray;
+
+}
+
+#mainNav li
+{
+	list-style: none;
+	font-size: 1em;
+	font-family: 'Jim Nightshade', cursive;
+	display: inline-block;
+	padding: 10px;
+	text-align: right;
+}
+
+#mainNav
+{
+	width:50%;
+	border-radius: 30px;
+	margin-top: 50px;
+	padding-left: 10%;
+	padding-right: 0;
+}
+
+#mainNav li a
+{
+	text-decoration: none;
+	color: white;
+	padding-right: 10px;
+}
+
+#mainNav ul
+{
+	padding-right: 0;
+}
+
+#leftDiv
+{
+	width: 60%;
+}
+
+#rightDiv
+{
+	width: 30%;
+}
+#mainFooter
+{
+	position: absolute;
+	width: 98%;
+	margin: auto;
+	bottom: 10px;
+	border-radius: 10px;
+	padding: 10px 0;
+	text-align: center;
+	font-family: 'Jim Nightshade', cursive;
+	font-size: 1.5em;
+	background-color: #3c3c31;
+}
