@@ -70,13 +70,32 @@ header img
 
 #leftDiv
 {
-	width: 60%;
+	display: inline-block;
+	width: 70%;
 }
 
 #rightDiv
 {
-	width: 30%;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 30px;
+	width: 20%;
+	float: right;
 }
+
+#rightDiv li
+{
+	padding: 20px 0;
+	border-bottom: 1px solid black;
+	list-style: none;
+}
+
+#rightDiv a
+{
+	text-decoration: none;
+	color: black;
+}
+
 #mainFooter
 {
 	position: absolute;
@@ -89,4 +108,11 @@ header img
 	font-family: 'Jim Nightshade', cursive;
 	font-size: 1.5em;
 	background-color: #3c3c31;
+}
+
+#week1, #week2
+{
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 10px;
 }
