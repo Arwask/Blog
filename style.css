@@ -7,10 +7,10 @@
 	font-size: 2em;
 	border-radius: 30px;
 	display: inline-block;
-	background-color: #3c3c3d;
+	background-color: #2a3c61;
 }
 
-header h1
+#mainH1
 {
 	float: right;
 	text-align: left;
@@ -33,7 +33,7 @@ header img
 	-webkit-box-shadow: 15px 15px 20px -6px black;
 	-moz-box-shadow: 15px 15px 20px -6px black;
 	box-shadow: 15px 15px 20px -6px black;
-	background-color: gray;
+	background-color: #4c6cad;
 
 }
 
@@ -76,13 +76,23 @@ header img
 
 #rightDiv
 {
+	font-family: 'Marck Script', cursive;
+	background-color: #Fff;
+	text-align: center;
+	border: 3px solid #2a3c61;
 	border-radius: 10px;
 	padding: 10px;
 	margin-top: 30px;
 	width: 20%;
 	float: right;
+	padding-right: 20px;
 }
-
+#rightDiv h1
+{
+	color: white;
+	background-color: #2a3c61;
+	border-radius: 10px;
+}
 #rightDiv li
 {
 	padding: 20px 0;
@@ -98,21 +108,33 @@ header img
 
 #mainFooter
 {
-	position: absolute;
-	width: 98%;
-	margin: auto;
-	bottom: 10px;
+	position: relative;
+	bottom: 0;
+	clear: both;
+	width: 100%;
+	margin:10px auto 0 auto;
 	border-radius: 10px;
 	padding: 10px 0;
 	text-align: center;
 	font-family: 'Jim Nightshade', cursive;
 	font-size: 1.5em;
-	background-color: #3c3c31;
+	background-color: #2a3c61;
+	color: white;
 }
 
-#week1, #week2
+.weeklyArticles
 {
 	margin-top: 20px;
 	border-radius: 10px;
 	padding: 10px;
+	background-color: #fff;
+	border: 3px solid #2a3c61;
+	font-family: 'Marck Script', cursive;
+}
+.weeklyArticles h1
+{
+	color: white;
+	text-align: center;
+	width: 30%;
+	border-radius: 10px;
 }
